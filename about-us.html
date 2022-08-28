@@ -33,42 +33,70 @@
 <body>
     <!--Preload-->
     <div class="preloader">
-        <div class="preloader_image">
-            <div class="sk-double-bounce">
-                <div class="sk-child sk-double-bounce1"></div>
-                <div class="sk-child sk-double-bounce2"></div>
-            </div>
+        <div class="plane">
+            <img src="img/travel.gif" class="plane-img">
+          </div> 
         </div>
-    </div>
-    <nav class="navbar navbar-expand-lg white-bg">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/fly-1.png" alt="Logo">
-            </a>
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse flex-grow-1" id="main-nav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="about-us.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tours.html">Tours</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact-us.html">Contact Us</a>
-                    </li>
-                </ul>
-                <div class="booking-button">
-                    <a href="booking.html" class="btn btn-primary">Booking Now</a>
+        <nav class="navbar navbar-expand-lg primary-bg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/fly.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-1" id="navbarSupportedContent">
+                    <ul class="navbar-nav fly-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link button" href="#popup1">Tours</a>
+                                <!--popup1-->
+                                <div id="popup1" class="popup-container">
+                                    <div class="popup-content">
+                                    <a href="#" class="close">&times;</a>
+                                    <a class="popup-logo" href="index.html">
+                                        <img src="img/fly-1.png" alt="Logo">
+                                    </a>
+                                    <div class="contact-form">
+                                        <form>
+                                            <div class="mb-4">
+                                                <input type="text" class="form-control" id="your_name" placeholder="Enter your name">
+                                            </div>
+                                            <div class="mb-4">
+                                                <input type="email" class="form-control" id="email_address" placeholder="Enter email address">
+                                            </div>
+                                            <div class="mb-3">
+                                                <textarea class="form-control" id="keyword" rows="6" placeholder="Type you keyword"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary submit-pop"><a href="tours.html">Submit</a></button>
+                                        </form>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link button" href="Gallery.html">Gallery</a>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class=" nav-item-contact d-none d-lg-block ">
+                        <a  href="#"><i aria-hidden="true" class="fas fa-phone-alt"></i> +91 81389 99424 </a>
+                        <a  href="#"><i aria-hidden="true" class="far fa-envelope"></i>  info@fly-international.com</a>
+                    </div>
+                    <div class="booking-button">
+                        <a href="booking.html" class="btn btn-primary btn-white">Booking Now</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     <!-- end nav -->
     <section class="inner-banner" style="background-image:url(img/banner/sub-page.png)">
         <div class="container">
