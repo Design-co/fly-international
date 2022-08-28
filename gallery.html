@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,14 +23,13 @@
     <link href="css/venobox.css" rel="stylesheet">
     <!-- Font-awesome -->
     <link rel="stylesheet" href="fonts/font-awesome/css/all.min.css">
-    <!-- ScrollCue CSS -->
+    <!-- Main CSS -->
     <link href="css/scrollCue.css" rel="stylesheet">
     <!--nice select css-->
     <link href="css/nice-select.css" rel="stylesheet">
     <!-- Main CSS -->
     <link href="style.css" rel="stylesheet">
 </head>
-<body>
     <!--Preload-->
     <div class="preloader">
         <div class="plane">
@@ -54,7 +52,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="about-us.html">About Us</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                           <a class="nav-link button" href="#popup1">Tours</a>
                                 <!--popup1-->
                                 <div id="popup1" class="popup-container">
@@ -81,7 +79,7 @@
                                 </div>
                                 
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link button" href="Gallery.html">Gallery</a>
                           </li>
                         <li class="nav-item">
@@ -104,13 +102,13 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="banner-content">
-                        <h2>Tour List</h2>
+                        <h2>Gallery</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
                                     <a href="index.html">Home</a>
                                 </li>
-                                <li class="breadcrumb-item active" aria-current="page">Tour List</li>
+                                <li class="breadcrumb-item active" aria-current="page">gallery</li>
                             </ol>
                         </nav>
                     </div>
@@ -119,198 +117,77 @@
         </div>
     </section>
     <!-- end banner -->
-    <!-- start popular tours -->
-    <section class="section-spacing-tours tours">
-        <div class="container">
-            <div class="row align-items-center tour-bar-row">
-                <div class="col">
-                    <p class="tour-bar-text">Showing 1-6 of 20 results</p>
-                </div>
-                <div class="col d-flex justify-content-end">
-                    <div class="custom-select">
-                        <select>
-                            <option value="0">Sort</option>
-                            <option value="1">Date</option>
-                            <option value="2">Rating</option>
-                        </select>
-                    </div>
-                    <a href="tours-list.html" class="tour-bar-icon">
-                        <i class="fas fa-bars"></i>
-                    </a>
-                    <a href="tours.html" class="tour-bar-icon">
-                        <i class="fas fa-th-large"></i>
-                    </a>
-                </div>
+
+    <section class="section-spacing gallery">
+    <div class="container">
+        <div class="row">
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h3 class="mt-n6 text-center">Gallery</h3>
+            <h2 class=" text-center">Explore all tour of the world with us.</h2>
+        </div>
+
+        <div class="gallery-button" align="center">
+            <button class="btn btn-default filter-button" data-filter="all">All</button>
+            <button class="btn btn-default filter-button" data-filter="hdpe">HDPE Pipes</button>
+            <button class="btn btn-default filter-button" data-filter="sprinkle">Sprinkle Pipes</button>
+            <button class="btn btn-default filter-button" data-filter="spray">Spray Nozzle</button>
+            <button class="btn btn-default filter-button" data-filter="irrigation">Irrigation Pipes</button>
+        </div>
+        <br/>
+
+
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
             </div>
-            <div class="row" data-cues="slideInLeft">
-                <div class="col-md-6 col-lg-4">
-                    <a href="tours-details.html">
-                        <div class="card tour-card wow fadeIn">
-                            <img class="card-img-top" src="img/tour/1.png" alt="">
-                            <span class="tour-duration1">
-                                <i class="fas fa-history"></i> 12 Days </span>
-                            <div class="card-body">
-                                <div class="tour-tags">
-                                    <span class="tour-price">From $50.00</span>
-                                    <span class="tour-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i> (2) </span>
-                                </div>
-                                <h6>A good traveler has no fixed plans and is not intent on arriving.</h6>
-                                <p class="mb-0">Kuala Lumpur, Malaysia</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a href="tours-details.html">
-                        <div class="card tour-card wow fadeIn">
-                            <img class="card-img-top" src="img/tour/2.png" alt="">
-                            <span class="tour-duration1">
-                                <i class="fas fa-history"></i> 12 Days </span>
-                            <div class="card-body">
-                                <div class="tour-tags">
-                                    <span class="tour-price">From $50.00</span>
-                                    <span class="tour-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i> (2) </span>
-                                </div>
-                                <h6>A good traveler has no fixed plans and is not intent on arriving.</h6>
-                                <p class="mb-0">Kuala Lumpur, Malaysia</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a href="tours-details.html">
-                        <div class="card tour-card wow fadeIn">
-                            <img class="card-img-top" src="img/tour/3.png" alt="">
-                            <span class="tour-duration1">
-                                <i class="fas fa-history"></i> 12 Days </span>
-                            <div class="card-body">
-                                <div class="tour-tags">
-                                    <span class="tour-price">From $50.00</span>
-                                    <span class="tour-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i> (2) </span>
-                                </div>
-                                <h6>A good traveler has no fixed plans and is not intent on arriving.</h6>
-                                <p class="mb-0">Kuala Lumpur, Malaysia</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a href="tours-details.html">
-                        <div class="card tour-card wow fadeIn">
-                            <img class="card-img-top" src="img/tour/1.png" alt="">
-                            <span class="tour-duration1">
-                                <i class="fas fa-history"></i> 12 Days </span>
-                            <div class="card-body">
-                                <div class="tour-tags">
-                                    <span class="tour-price">From $50.00</span>
-                                    <span class="tour-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i> (2) </span>
-                                </div>
-                                <h6>A good traveler has no fixed plans and is not intent on arriving.</h6>
-                                <p class="mb-0">Kuala Lumpur, Malaysia</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a href="tours-details.html">
-                        <div class="card tour-card wow fadeIn">
-                            <img class="card-img-top" src="img/tour/3.png" alt="">
-                            <span class="tour-duration1">
-                                <i class="fas fa-history"></i> 12 Days </span>
-                            <div class="card-body">
-                                <div class="tour-tags">
-                                    <span class="tour-price">From $50.00</span>
-                                    <span class="tour-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i> (2) </span>
-                                </div>
-                                <h6>A good traveler has no fixed plans and is not intent on arriving.</h6>
-                                <p class="mb-0">Kuala Lumpur, Malaysia</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a href="tours-details.html">
-                        <div class="card tour-card wow fadeIn">
-                            <img class="card-img-top" src="img/tour/1.png" alt="">
-                            <span class="tour-duration1">
-                                <i class="fas fa-history"></i> 12 Days </span>
-                            <div class="card-body">
-                                <div class="tour-tags">
-                                    <span class="tour-price">From $50.00</span>
-                                    <span class="tour-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i> (2) </span>
-                                </div>
-                                <h6>A good traveler has no fixed plans and is not intent on arriving.</h6>
-                                <p class="mb-0">Kuala Lumpur, Malaysia</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
             </div>
-            <div class="row">
-                <div class="pagination-container">
-                    <ul class="pagination justify-content-center">
-                        <li>
-                            <a href="#" aria-label="Previous">
-                                <span aria-hidden="true">
-                                    <i class="fa fa-angle-double-left"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="active">
-                            <a href="#">1</a>
-                        </li>
-                        <li>
-                            <a href="#">2</a>
-                        </li>
-                        <li>
-                            <a href="#">3</a>
-                        </li>
-                        <li>
-                            <a href="#">4</a>
-                        </li>
-                        <li>
-                            <a href="#" aria-label="Next">
-                                <span aria-hidden="true">
-                                    <i class="fa fa-angle-double-right"></i>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
             </div>
         </div>
-    </section>
-    <!-- end popular tours -->
+    </div>
+</section>
+
     <!-- start footer -->
     <footer>
         <div class="footer-top">
@@ -419,7 +296,52 @@
             <i class="fa fa-angle-up"></i>
         </a>
     </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="video-modal">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="YouTube video player" style="border: 0; width: 100%; height: 500px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    
     <!-- jQuery -->
+    <script>
+        $(document).ready(function(){
+
+$(".filter-button").click(function(){
+    var value = $(this).attr('data-filter');
+    
+    if(value == "all")
+    {
+        //$('.filter').removeClass('hidden');
+        $('.filter').show('1000');
+    }
+    else
+    {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+        $(".filter").not('.'+value).hide('3000');
+        $('.filter').filter('.'+value).show('3000');
+        
+    }
+});
+
+if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
+});
+    </script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
@@ -438,5 +360,5 @@
     <script src="js/script.js"></script>
 </body>
 
-<!-- Mirrored from themecrazy.net/html/tourest/tours.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Aug 2022 10:10:11 GMT -->
+<!-- Mirrored from themecrazy.net/html/tourest/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Aug 2022 10:10:09 GMT -->
 </html>
