@@ -147,13 +147,13 @@ p {
     position: relative;
     overflow: hidden;
     max-width: 35rem;
-    height: 30rem;
+    height: 35rem;
     margin: 0 auto;
   }
   
   .plane {
     width: 200px;
-    height: 200px;
+    height: 250px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -4664,4 +4664,13 @@ form#subscription-form {
     color: #0978BD;
   }
   /*End popup styles*/
-  
+  @media (max-width: 991.98px){
+.popup-content{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 85%;
+    border-radius: 10px;
+}
+  }
